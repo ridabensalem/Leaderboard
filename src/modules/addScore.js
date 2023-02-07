@@ -6,24 +6,21 @@ let scores = [];
 
 const addScore = () => {
   submitButton.addEventListener('click', () => {
-    let scorePromise = new Promise((resolve, reject) => {
-      let name = userName.value;
-      let score = userScores.value;
+    const scorePromise = new Promise((resolve, reject) => {
+      const name = userName.value;
+      const score = userScores.value;
       if (name === '' && score === '') {
-        reject('Please enter a name');
+        reject(new Error('please provide a user name or score'));
+      } else {
+        scores.push({ name, score });
+        localStorage.setItem('scores', JSON.stringify(scores));
+        resolve('Item is added successfully');
       }
-      else{
-        scores.push({ name: name, score: score });
-        localStorage.setItem('scores', JSON.stringify(scores)); 
-      resolve('Item is added successfully');
-
-      }
-
     });
-
-    scorePromise.then(result => {
+    // no-unused-vars-next-line
+    scorePromise.then((result) => {
       const listData = scores.map(
-        item => `<br> <li>Name: ${item.name} Score: ${item.score} <br></li>`
+        (item) => `<br> <li>Name: ${item.name} Score: ${item.score} <br></li>`,
       );
       scoresList.innerHTML = '';
       scoresList.innerHTML += listData.join('');
@@ -31,11 +28,11 @@ const addScore = () => {
   });
 };
 if (localStorage.getItem('scores')) {
-    scores = JSON.parse(localStorage.getItem('scores'));
-    const listData = scores.map(
-      item => `<br> <li>Name: ${item.name} Score: ${item.score} <br></li>`
-    );
-    scoresList.innerHTML = '';
-    scoresList.innerHTML += listData.join('');
-  }
+  scores = JSON.parse(localStorage.getItem('scores'));
+  const listData = scores.map(
+    (item) => `<br> <li>Name: ${item.name} Score: ${item.score} <br></li>`,
+  );
+  scoresList.innerHTML = '';
+  scoresList.innerHTML += listData.join('');
+}
 export default addScore;
