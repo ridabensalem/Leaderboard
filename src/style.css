@@ -1,3 +1,7 @@
-h1{
-    color: red;
+h1 {
+  font-weight: bolder;
+}
+
+li {
+  list-style-type: none;
 }
