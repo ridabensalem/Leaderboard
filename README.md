@@ -47,25 +47,13 @@
      <li><a href="#">Js</a></li>
   </ul>
 </details>
-=======
-  </ul>
-</details>
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">Js</a></li>
-  </ul>
-</details>
+
+
 
 
 
 ### Key Features <a name="key-features"></a>
+
 
 - **[Add scores to the API]**
 - **[Fetch data form the API]**
@@ -76,8 +64,9 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [N/A]
-=======
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
