@@ -87,19 +87,20 @@ In order to run this project you need:
 Install this project with:
 
 
-` cd my-project
-  gem install https://github.com/ridabensalem/Leaderboard.git`
+- ` cd my-project`
+- ` git clone https://github.com/ridabensalem/Leaderboard.git`
+- ` cd Leaderboard`
+- ` npm install`
 
 ### Usage
 
 To run the project, execute the following command:
-` 
-  git  clone https://github.com/ridabensalem/Leaderboard.git`
+- ` npm start `
 
 ### Run tests
 
 To run tests, run the following command:
-` npm test`
+- ` npm test`
 
 
 ### Deployment
