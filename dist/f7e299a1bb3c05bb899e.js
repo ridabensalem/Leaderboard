@@ -1,4 +1,4 @@
-import './style.css';
+// import './style.css';
 import scoreAdd from './modules/scoreAdd.js';
 import { scoreRequest, display } from './modules/fetshScores.js';
 
@@ -39,5 +39,3 @@ refresh.addEventListener('click', (e) => {
   scoreRequest();
   display();
 });
-
-
