@@ -1,7 +1,120 @@
-h1 {
-  font-weight: bolder;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
 li {
   list-style-type: none;
+}
+
+.container {
+  background-color: #e2f1fd;
+  height: 90vh;
+  width: 60%;
+  position: relative;
+  margin: auto;
+  display: flex;
+}
+
+.card_scores_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_scores {
+  width: 80%;
+  height: 80vh;
+  margin: 50px 50px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.card_scores_header,
+.card_form_header {
+  max-height: 250px;
+  height: 180px;
+  overflow: hidden;
+  background-color: #2692ce;
+  border-radius: 20px 20px 0 0;
+}
+
+.card_scores_header h1,
+.card_form_header h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+
+.card_scores_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.card_scores_details img {
+  width: 70px;
+  height: 70px;
+}
+
+.card_scores_lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.card_scores_lists :last-child {
+  color: #2692ce;
+  font-weight: bold;
+}
+
+.card_scores_lists img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.card_form_container {
+  width: 50%;
+}
+
+.card_form_input {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card_form {
+  width: 80%;
+  height: 80vh;
+  margin: 50px 50px;
+  background-color: #d0e8ff;
+  border-radius: 25px;
+}
+
+.form_buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card_form_input input {
+  width: 350px;
+  height: 40px;
+  border: 1px solid #fff;
+}
+
+.card_form_input button {
+  background-color: #2692ce;
+  border: none;
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
 }
