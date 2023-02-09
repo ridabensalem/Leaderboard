@@ -42,18 +42,8 @@
   <summary>Client</summary>
   <ul>
     <li><a href="#">HTML</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Client</summary>
-  <ul>
     <li><a href="#">CSS</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">Js</a></li>
+     <li><a href="#">Js</a></li>
   </ul>
 </details>
 
@@ -68,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [N/A]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
