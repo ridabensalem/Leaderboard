@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
-    <title>LaderBoard</title>
+
+    <title>LaderBoard Game</title>
 </head>
+
 <body>
-    <h1>LeaderBoard</h1>
-    <script  type='module'src="index.js"></script>
+
+    <div class="container">
+        <div class="card_scores_container">
+            <div class="card_scores">
+                <div class="card_scores_header">
+                    <h1>LaderBoard Game</h1>
+                    <div class="card_scores_details">
+                        <p>player</p>
+                        <img src="https://rb.gy/vdwyx4" alt="default player">
+                        <p class="score_number">score</p>
+                    </div>
+                </div>
+                <div id="scoresList">
+                   
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card_form_container">
+            <div class="card_form">
+                <div class="card_form_header">
+                    <h1>Enter player</h1>
+                </div>
+                <div class="card_form_input">
+                        <input type="text" id="username" placeholder="Please enter the name of the player ..."> 
+          <input type="number" id="scores" placeholder=" Please enter the score...">
+          <div class="form_buttons">
+            <button type="submit" id="submitButton">Submit</button>
+            <button type="submit" id="refresh">Refresh</button> 
+          </div>
+          
+                </div>
+            
+            </div>
+          
+        </div>
+    </div>
+    <script type='module' src="index.js"></script>
 </body>
+
 </html>

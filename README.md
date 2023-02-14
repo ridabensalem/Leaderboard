@@ -42,23 +42,18 @@
   <summary>Client</summary>
   <ul>
     <li><a href="#">HTML</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Client</summary>
-  <ul>
+
     <li><a href="#">CSS</a></li>
+     <li><a href="#">Js</a></li>
   </ul>
 </details>
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">Js</a></li>
-  </ul>
-</details>
+
+
+
 
 
 ### Key Features <a name="key-features"></a>
+
 
 - **[Add scores to the API]**
 - **[Fetch data form the API]**
@@ -68,7 +63,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [N/A]
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,19 +87,20 @@ In order to run this project you need:
 Install this project with:
 
 
-` cd my-project
-  gem install https://github.com/ridabensalem/Leaderboard.git`
+- ` cd my-project`
+- ` git clone https://github.com/ridabensalem/Leaderboard.git`
+- ` cd Leaderboard`
+- ` npm install`
 
 ### Usage
 
 To run the project, execute the following command:
-` 
-  git  clone https://github.com/ridabensalem/Leaderboard.git`
+- ` npm start `
 
 ### Run tests
 
 To run tests, run the following command:
-` npm test`
+- ` npm test`
 
 
 ### Deployment

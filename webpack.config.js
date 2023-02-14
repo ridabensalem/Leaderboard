@@ -12,14 +12,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "LaderBoard",
+      title: "Leader board",
       filename: "index.html",
       template: path.resolve(__dirname, "src", "index.html"),
     }),
   ],
   output: {
-    filename: "main.js",
+    filename: "index.js",
     path: path.resolve(__dirname, "./dist"),
+
     clean: true,
   },
   module: {
@@ -39,6 +40,7 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        
       },
      
     ],
